@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "9fzvDBf3Pw8tHFspPbOlE"
+uri = "file://artifacts/tyre-rescue/public/hero-bg.png"
+type = "image"
+title = "Nighttime cinematic roadside tyre repair"

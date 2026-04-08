@@ -1,0 +1,116 @@
+Design a modern, mobile-first responsive landing page for a UK-based mobile tyre service business named "Tyre Rescue 24/7".
+
+The business provides:
+
+* Mobile tyre repair
+* Tyre replacement
+* Mobile tyre fitting
+* Locking wheel nut removal
+* Tyre balancing
+
+Target audience:
+Drivers across England searching urgently on mobile devices for services like "mobile tyre repair near me", "emergency tyre repair", "flat tyre repair near me", and "24/7 mobile tyre fitting".
+
+Primary goal:
+Maximize conversions (calls and bookings) from high-intent searches such as:
+
+* mobile tyre repair near me
+* emergency tyre repair
+* 24/7 tyre repair near me
+* mobile tyre fitting near me
+* puncture repair near me
+* tyre replacement near me
+* roadside tyre assistance
+* tyre repair open now
+
+Design requirements:
+
+* Mobile-first design (priority), fully responsive for tablets and desktops
+* Fast-loading, clean, and professional UI
+* Strong emphasis on urgency, trust, and speed
+* Sticky "Call Now" and "Get Help Fast" buttons
+* Prominent phone number at the top and bottom
+* Click-to-call functionality optimized for mobile users
+
+Sections to include:
+
+1. Hero Section:
+
+   * Headline: "24/7 Mobile Tyre Repair Near You"
+   * Subheadline incorporating SEO keywords:
+     "Fast emergency tyre repair, puncture repair near you, and mobile tyre fitting available 24/7 across the UK."
+   * CTA buttons: "Call Now", "Fix My Tyre Now"
+   * Background: roadside emergency tyre repair or mobile van service
+
+2. Services Section (with icons):
+
+   * Mobile Tyre Repair (puncture repair service, flat tyre repair near me)
+   * Tyre Replacement (same day tyre replacement, tyre replacement near me)
+   * Mobile Tyre Fitting (mobile tyre fitting near me, tyre fitting at home)
+   * Locking Wheel Nut Removal (lost locking wheel nut key, wheel nut removal service)
+   * Tyre Balancing (wheel balancing service near me)
+
+3. Why Choose Us:
+
+   * 24/7 emergency tyre repair
+   * Fast response for roadside tyre assistance
+   * Affordable and transparent pricing
+   * Expert technicians
+   * Coverage across major UK locations
+
+4. How It Works:
+
+   * Step 1: Call us or request service ("mobile tyre service near me open now")
+   * Step 2: We arrive quickly at your location
+   * Step 3: We fix your tyre (puncture repair, tyre replacement, or fitting)
+
+5. SEO Content Section (important):
+   Include natural keyword-rich content such as:
+   "We provide 24/7 mobile tyre repair near you, including emergency puncture repair, flat tyre repair, and mobile tyre replacement. Whether you need mobile tyre fitting at home or roadside tyre assistance, our expert team is ready to help anytime."
+
+6. Location Coverage:
+
+   * Mention cities like London, Birmingham, Manchester, Leeds, Liverpool
+   * Example keywords:
+     "mobile tyre fitting London", "tyre repair Birmingham", "emergency tyre repair Manchester"
+
+7. Testimonials / Reviews:
+
+   * Customer trust indicators
+
+8. Footer:
+
+   * Contact information
+   * Phone number
+   * Quick links to services
+   * Social media
+
+Color scheme:
+
+* Primary: Dark blue (#0A1F44) → trust and professionalism
+* Secondary: Bright yellow (#FFD700) → urgency and visibility
+* Accent: White and light grey
+* Optional: Red for emergency highlights
+
+Typography:
+
+* Clean sans-serif fonts (Inter, Poppins)
+* Large, readable text for mobile screens
+
+Style inspiration:
+
+* Emergency roadside assistance services
+* Automotive service platforms
+* Clean, conversion-focused UI
+
+Additional UX considerations:
+
+* Click-to-call buttons throughout
+* Minimal scrolling to reach CTA
+* Fast load time (<2 seconds)
+* Optimized for voice search phrases like:
+  "who fixes tyres near me"
+  "can someone fix my tyre now"
+
+Goal:
+Create a high-converting, SEO-optimized landing page that ranks well for UK-based tyre service searches and drives immediate customer calls.

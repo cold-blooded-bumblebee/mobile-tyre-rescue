@@ -4,6 +4,16 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
+## Artifacts
+
+### Tyre Rescue 24/7 (`artifacts/tyre-rescue`)
+- A high-converting, SEO-optimized mobile-first landing page for a UK-based 24/7 emergency mobile tyre repair service
+- Single-page React + Vite app (no backend required)
+- Features: sticky header, sticky mobile CTA, click-to-call (tel:), 8 sections, scroll animations (framer-motion), full SEO meta tags
+- Colors: Dark Navy (#0A1F44), Yellow (#FFD700), Red (#DC2626)
+- Fonts: Poppins (headings), Inter (body)
+- Preview path: `/`
+
 ## Stack
 
 - **Monorepo tool**: pnpm workspaces

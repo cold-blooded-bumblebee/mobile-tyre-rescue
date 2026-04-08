@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Tyre Rescue 24/7"
+version = "1.0.0"
+id = "artifacts/tyre-rescue"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22825
+
+[services.development]
+run = "pnpm --filter @workspace/tyre-rescue run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tyre-rescue", "run", "build" ]
+publicDir = "artifacts/tyre-rescue/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22825"
+BASE_PATH = "/"
