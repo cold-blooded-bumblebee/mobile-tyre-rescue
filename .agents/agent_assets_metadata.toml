@@ -1,8 +1,13 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "9fzvDBf3Pw8tHFspPbOlE"
 uri = "file://artifacts/tyre-rescue/public/hero-bg.png"
 type = "image"
 title = "Nighttime cinematic roadside tyre repair"
+
+[[outputs]]
+id = "PZjctU3b4M2yW3q0lmXoS"
+uri = "file://tyre-rescue-hostinger.tar.gz"
+type = "unspecified"
+title = "Tyre Rescue 24/7 — Hostinger Production Files"
