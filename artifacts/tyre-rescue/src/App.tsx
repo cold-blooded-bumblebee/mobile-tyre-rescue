@@ -24,7 +24,7 @@ import NotFound from "@/pages/not-found";
 const queryClient = new QueryClient();
 
 const PHONE_DISPLAY = "07700 000000";
-const PHONE_HREF = "tel:+447700000000";
+const PHONE_HREF = "https://wa.me/447700000000";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
