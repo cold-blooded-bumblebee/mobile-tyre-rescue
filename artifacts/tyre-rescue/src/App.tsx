@@ -166,6 +166,44 @@ function LandingPage() {
           </div>
         </section>
 
+        {/* Services Section */}
+        <section id="services" className="py-20 bg-[#F5F5F5]">
+          <div className="container px-4 mx-auto">
+            <div className="mb-16">
+              <h2 className="text-3xl font-black text-[#0A1F44] md:text-5xl font-display mb-6">
+                Comprehensive Tyre Services
+              </h2>
+              <div className="w-24 h-1.5 bg-[#FFD700] mb-6"></div>
+              <p className="text-lg text-gray-600 max-w-2xl">
+                We bring the tyre shop to you. Fully equipped vans capable of handling any tyre emergency on the roadside, at home, or at work.
+              </p>
+            </div>
+
+            <motion.div 
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-100px" }}
+              variants={staggerContainer}
+              className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+            >
+              {[
+                { title: "Mobile Tyre Fitting", desc: "We supply and fit new tyres wherever you are parked. Wide range of budget, mid-range, and premium brands available.", icon: Settings },
+                { title: "Emergency Puncture Repair", desc: "Got a flat? If it's safe to repair, we'll fix the puncture to British Standard BSAU159 and get you moving immediately.", icon: Wrench },
+                { title: "Tyre Replacement", desc: "Blowout on the motorway? We carry replacement tyres for cars, vans, and SUVs to replace damaged beyond repair tyres.", icon: Car },
+                { title: "Locking Wheel Nut Removal", desc: "Lost your key? We use specialist tools to safely remove locking wheel nuts without damaging your alloy wheels.", icon: ShieldCheck },
+                { title: "Wheel Balancing", desc: "All our vans are equipped with electronic wheel balancers ensuring a smooth, vibration-free ride after fitting.", icon: Zap },
+                { title: "24/7 Availability", desc: "Day, night, weekends, or bank holidays. We are always on standby ready to dispatch a van to your exact location.", icon: Clock }
+              ].map((service, idx) => (
+                <motion.div key={idx} variants={fadeInUp} className="p-8 transition-transform bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100 hover:-translate-y-1">
+                  <service.icon className="w-12 h-12 text-[#FFD700] mb-6 bg-[#0A1F44] p-2.5 rounded-xl" />
+                  <h3 className="mb-3 text-xl font-bold text-[#0A1F44] font-display">{service.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{service.desc}</p>
+                </motion.div>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+
         {/* How It Works Section */}
         <section id="how-it-works" className="py-20 bg-white">
           <div className="container px-4 mx-auto">
@@ -202,44 +240,6 @@ function LandingPage() {
                   </div>
                   <h3 className="text-2xl font-bold text-[#0A1F44] mb-3 font-display">{item.title}</h3>
                   <p className="text-gray-600">{item.desc}</p>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
-        </section>
-
-        {/* Services Section */}
-        <section id="services" className="py-20 bg-[#F5F5F5]">
-          <div className="container px-4 mx-auto">
-            <div className="mb-16">
-              <h2 className="text-3xl font-black text-[#0A1F44] md:text-5xl font-display mb-6">
-                Comprehensive Tyre Services
-              </h2>
-              <div className="w-24 h-1.5 bg-[#FFD700] mb-6"></div>
-              <p className="text-lg text-gray-600 max-w-2xl">
-                We bring the tyre shop to you. Fully equipped vans capable of handling any tyre emergency on the roadside, at home, or at work.
-              </p>
-            </div>
-
-            <motion.div 
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-100px" }}
-              variants={staggerContainer}
-              className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
-            >
-              {[
-                { title: "Mobile Tyre Fitting", desc: "We supply and fit new tyres wherever you are parked. Wide range of budget, mid-range, and premium brands available.", icon: Settings },
-                { title: "Emergency Puncture Repair", desc: "Got a flat? If it's safe to repair, we'll fix the puncture to British Standard BSAU159 and get you moving immediately.", icon: Wrench },
-                { title: "Tyre Replacement", desc: "Blowout on the motorway? We carry replacement tyres for cars, vans, and SUVs to replace damaged beyond repair tyres.", icon: Car },
-                { title: "Locking Wheel Nut Removal", desc: "Lost your key? We use specialist tools to safely remove locking wheel nuts without damaging your alloy wheels.", icon: ShieldCheck },
-                { title: "Wheel Balancing", desc: "All our vans are equipped with electronic wheel balancers ensuring a smooth, vibration-free ride after fitting.", icon: Zap },
-                { title: "24/7 Availability", desc: "Day, night, weekends, or bank holidays. We are always on standby ready to dispatch a van to your exact location.", icon: Clock }
-              ].map((service, idx) => (
-                <motion.div key={idx} variants={fadeInUp} className="p-8 transition-transform bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100 hover:-translate-y-1">
-                  <service.icon className="w-12 h-12 text-[#FFD700] mb-6 bg-[#0A1F44] p-2.5 rounded-xl" />
-                  <h3 className="mb-3 text-xl font-bold text-[#0A1F44] font-display">{service.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{service.desc}</p>
                 </motion.div>
               ))}
             </motion.div>
