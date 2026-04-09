@@ -161,6 +161,8 @@ function LandingPage() {
                 <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD700]" /> Mobile Tyre Fitting</div>
                 <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD700]" /> Puncture Repairs</div>
                 <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD700]" /> Locking Nut Removal</div>
+                <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD700]" /> Tyre Replacement</div>
+                <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-[#FFD700]" /> Wheel Balancing</div>
               </motion.div>
             </motion.div>
           </div>
