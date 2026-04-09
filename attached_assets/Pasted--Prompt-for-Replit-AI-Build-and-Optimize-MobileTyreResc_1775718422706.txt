@@ -1,0 +1,248 @@
+**Prompt for Replit AI: Build and Optimize MobileTyreRescue247.co.uk for SEO**
+
+I am managing my website, **MobileTyreRescue247.co.uk**, on Replit. I want you to redesign, optimize, and expand my website for modern SEO, performance, and conversions. The business provides 24/7 mobile tyre fitting services exclusively in Sheffield, Chesterfield, Rotherham, and Nottingham, United Kingdom.
+
+Your objective is to create a fully responsive, SEO-optimized, multi-page website using HTML, CSS, and JavaScript.
+
+---
+
+### 🔧 Technical Requirements
+
+1. Use clean, modular, and well-commented code.
+2. Ensure full responsiveness across desktop, tablet, and mobile devices.
+3. Optimize performance for fast loading times.
+4. Follow modern UI/UX design principles.
+5. Use semantic HTML5 structure.
+6. Implement SEO best practices throughout the website.
+7. Structure the project for deployment on Replit.
+8. Include a sticky navigation bar and footer on all pages.
+9. Use a professional color scheme inspired by automotive services:
+
+   * Primary: #0A1F44 (Dark Blue)
+   * Secondary: #FFD700 (Yellow)
+   * Accent: #E63946 (Red)
+   * Background: #F8F9FA (Light Grey)
+10. Use Font Awesome icons and Google Fonts (Poppins or Roboto).
+
+---
+
+### 📁 Project Structure
+
+Create the following directory structure:
+
+/project-root
+│── index.html
+│── about-us.html
+│── services.html
+│── mobile-tyre-fitting.html
+│── emergency-tyre-repair.html
+│── roadside-tyre-replacement.html
+│── 24-7-mobile-tyre-service.html
+│── locking-wheel-nut-removal.html
+│── areas-we-cover.html
+│── mobile-tyre-fitting-sheffield.html
+│── mobile-tyre-fitting-chesterfield.html
+│── mobile-tyre-fitting-rotherham.html
+│── mobile-tyre-fitting-nottingham.html
+│── pricing.html
+│── testimonials.html
+│── faqs.html
+│── contact-us.html
+│── book-a-service.html
+│── blog.html
+│── privacy-policy.html
+│── terms-and-conditions.html
+│── cookie-policy.html
+│── sitemap.html
+│── robots.txt
+│── sitemap.xml
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+
+---
+
+### 📄 Core Pages Content
+
+Create SEO-optimized content using the following business details:
+
+**Business Name:** Mobile Tyre Rescue 247
+**Services:**
+
+* Mobile Tyre Fitting
+* Emergency Tyre Repair
+* Roadside Tyre Replacement
+* Mobile Puncture Repair
+* Locking Wheel Nut Removal
+* Same-Day Tyre Fitting
+* 24/7 Mobile Tyre Service
+
+**Service Areas:**
+
+* Sheffield
+* Chesterfield
+* Rotherham
+* Nottingham
+
+**Call-to-Action:** “Call Now for 24/7 Emergency Tyre Assistance.”
+
+---
+
+### 🔍 SEO Requirements
+
+Implement the following SEO best practices on every page:
+
+1. Unique meta titles and descriptions.
+2. Proper heading hierarchy (one H1 per page).
+3. Keyword optimization for local searches.
+4. Clean, descriptive URLs.
+5. Image ALT attributes.
+6. Internal linking between services and locations.
+7. Breadcrumb navigation.
+8. Canonical tags.
+9. Open Graph and Twitter Card metadata.
+10. XML sitemap and robots.txt.
+
+---
+
+### 📊 Target Keywords
+
+Optimize content using these keywords:
+
+**Primary Keywords**
+
+* Mobile tyre fitting
+* Emergency tyre repair
+* 24/7 mobile tyre service
+* Roadside tyre replacement
+
+**Local Keywords**
+
+* Mobile tyre fitting Sheffield
+* Mobile tyre fitting Chesterfield
+* Mobile tyre fitting Rotherham
+* Mobile tyre fitting Nottingham
+* Emergency tyre repair near me
+* 24-hour tyre fitting
+
+---
+
+### 📍 Location Pages
+
+Create unique, non-duplicate content for:
+
+* Mobile Tyre Fitting Sheffield
+* Mobile Tyre Fitting Chesterfield
+* Mobile Tyre Fitting Rotherham
+* Mobile Tyre Fitting Nottingham
+
+Each page must include:
+
+* Localized keywords
+* Area-specific descriptions
+* Benefits of the service
+* Strong calls-to-action
+
+---
+
+### 🧩 Schema Markup
+
+Add JSON-LD structured data to improve search visibility:
+
+* LocalBusiness Schema
+* Service Schema
+* FAQ Schema
+* Breadcrumb Schema
+
+Use placeholder contact details that can be edited later.
+
+---
+
+### ✨ Features to Include
+
+* Sticky navigation bar
+* Hero section with call-to-action
+* Service cards
+* Testimonials section
+* FAQ accordion
+* Booking form with validation
+* Contact form
+* Google Maps placeholder
+* Click-to-call button
+* WhatsApp chat button
+* Scroll-to-top button
+* Mobile-friendly navigation menu
+
+---
+
+### ⚡ Performance Optimization
+
+* Minify CSS and JavaScript.
+* Use lazy loading for images.
+* Optimize images for web performance.
+* Ensure fast loading times.
+* Follow Core Web Vitals best practices.
+
+---
+
+### 📝 Blog Section
+
+Create a blog page with sample articles:
+
+1. What to Do If You Get a Flat Tyre on the Motorway
+2. How Much Does Mobile Tyre Fitting Cost in the UK?
+3. Signs You Need New Tyres
+4. Benefits of Mobile Tyre Services
+5. Emergency Tyre Tips for Drivers
+
+---
+
+### ⚖️ Legal Pages
+
+Generate professional placeholder content for:
+
+* Privacy Policy
+* Terms and Conditions
+* Cookie Policy
+
+Ensure compliance with UK GDPR standards.
+
+---
+
+### 📞 Contact and Booking Forms
+
+Include the following fields:
+
+* Full Name
+* Phone Number
+* Email Address
+* Location
+* Vehicle Details
+* Service Required
+* Preferred Date and Time
+* Message
+
+---
+
+### 📤 Deliverables
+
+Provide:
+
+1. Fully functional HTML, CSS, and JavaScript files.
+2. SEO-optimized content on every page.
+3. A complete XML sitemap and robots.txt file.
+4. A responsive, production-ready website deployable on Replit.
+5. Clear comments in the code for easy customization.
+
+---
+
+### 🎯 Final Objective
+
+Build a professional, high-performing, and SEO-optimized website that ranks locally in Sheffield, Chesterfield, Rotherham, and Nottingham while maximizing conversions and user experience.
+
+Generate all files and content now.
