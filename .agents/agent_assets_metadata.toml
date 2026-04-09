@@ -11,3 +11,9 @@ id = "PZjctU3b4M2yW3q0lmXoS"
 uri = "file://tyre-rescue-hostinger.tar.gz"
 type = "unspecified"
 title = "Tyre Rescue 24/7 — Hostinger Production Files"
+
+[[outputs]]
+id = "N1uEUvDQkNVCb_4cZ1Ljs"
+uri = "file://tyre-rescue-hostinger.zip"
+type = "unspecified"
+title = "Tyre Rescue 247 — Hostinger Deploy Package"
