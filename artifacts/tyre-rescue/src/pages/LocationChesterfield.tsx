@@ -2,6 +2,7 @@ import { Layout } from "@/components/Layout";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Phone, CheckCircle2, MapPin } from "lucide-react";
+import { CityMap } from "@/components/CityMap";
 
 const PHONE_DISPLAY = "07469 157852";
 const PHONE_HREF = "https://wa.me/447469157852";
@@ -59,12 +60,13 @@ export default function LocationChesterfield() {
                 ))}
               </ul>
             </div>
-            <div className="bg-[#F5F5F5] p-8 rounded-2xl border border-gray-100 h-full flex flex-col justify-center items-center text-center shadow-sm">
-              <MapPin className="w-16 h-16 text-[#DC2626] mb-4" />
-              <h3 className="text-2xl font-bold font-display text-[#0A1F44] mb-4">Chesterfield Coverage</h3>
-              <div className="w-full aspect-video bg-gray-200 rounded-xl flex items-center justify-center text-gray-500 italic">
-                Map Placeholder
+            <div className="bg-[#F5F5F5] p-6 rounded-2xl border border-gray-100 h-full flex flex-col shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <MapPin className="w-8 h-8 text-[#DC2626] flex-shrink-0" />
+                <h3 className="text-2xl font-bold font-display text-[#0A1F44]">Chesterfield Coverage Map</h3>
               </div>
+              <CityMap city="Chesterfield" center={[53.2350, -1.4187]} zoom={12} height="340px" />
+              <p className="mt-4 text-sm text-gray-600">Serving all Chesterfield postcodes and surrounding areas.</p>
             </div>
           </div>
         </div>
