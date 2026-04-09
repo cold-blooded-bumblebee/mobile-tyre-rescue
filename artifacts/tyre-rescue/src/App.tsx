@@ -344,7 +344,7 @@ function LandingPage() {
             </p>
             
             <div className="flex flex-wrap justify-center gap-4">
-              {["London", "Birmingham", "Manchester", "Leeds", "Liverpool", "Sheffield", "Bristol", "Nottingham"].map((city) => (
+              {["Sheffield", "Chesterfield", "Rotherham", "Nottingham"].map((city) => (
                 <div key={city} className="px-6 py-3 font-bold text-[#0A1F44] bg-gray-100 rounded-full hover:bg-gray-200 transition-colors">
                   {city}
                 </div>
@@ -424,7 +424,10 @@ function LandingPage() {
               <h4 className="mb-6 text-lg font-bold text-white font-display">Quick Links</h4>
               <ul className="space-y-3 text-sm">
                 <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Mobile Tyre Fitting</a></li>
-                <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Puncture Repair</a></li>
+                <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Emergency Puncture Repair</a></li>
+                <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Tyre Replacement</a></li>
+                <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Locking Wheel Nut Removal</a></li>
+                <li><a href="#services" className="hover:text-[#FFD700] transition-colors">Wheel Balancing</a></li>
                 <li><a href="#how-it-works" className="hover:text-[#FFD700] transition-colors">How It Works</a></li>
                 <li><a href="#coverage" className="hover:text-[#FFD700] transition-colors">Areas Covered</a></li>
               </ul>
