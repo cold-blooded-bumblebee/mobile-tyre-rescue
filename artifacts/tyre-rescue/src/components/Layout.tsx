@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Phone, Wrench, ChevronDown, MapPin, ArrowUp } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X, Phone, Wrench, ChevronDown, MapPin, Car, AlertTriangle, RefreshCw, PenTool, Lock, Clock, Settings } from "lucide-react";
 
 const PHONE_DISPLAY = "07469 157852";
 const PHONE_HREF = "https://wa.me/447469157852";
@@ -38,48 +37,66 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-6">
+            {/* Services Dropdown */}
             <div className="relative group">
-              <button className="flex items-center gap-1 text-white/90 hover:text-white font-medium py-2">
-                Services <ChevronDown className="w-4 h-4" />
+              <button className="flex items-center gap-1.5 text-white/90 hover:text-[#FFD700] font-semibold py-2 transition-colors">
+                <Settings className="w-4 h-4" />
+                Services
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
-              <div className="absolute top-full left-0 w-64 bg-white rounded-xl shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all translate-y-2 group-hover:translate-y-0">
-                {[
-                  { name: "Mobile Tyre Fitting", path: "/mobile-tyre-fitting" },
-                  { name: "Emergency Tyre Repair", path: "/emergency-tyre-repair" },
-                  { name: "Tyre Replacement", path: "/roadside-tyre-replacement" },
-                  { name: "Puncture Repair", path: "/puncture-repair" },
-                  { name: "Locking Wheel Nut Removal", path: "/locking-wheel-nut-removal" },
-                  { name: "24/7 Mobile Service", path: "/247-mobile-tyre-service" },
-                ].map((item) => (
-                  <Link key={item.path} href={item.path} className="block px-4 py-2 text-[#0A1F44] hover:bg-gray-50 hover:text-primary font-medium">
-                    {item.name}
-                  </Link>
-                ))}
+              <div className="absolute top-[calc(100%+8px)] left-0 w-72 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 z-50">
+                <div className="h-1 bg-[#FFD700] w-full" />
+                <div className="py-2">
+                  {[
+                    { name: "Mobile Tyre Fitting", path: "/mobile-tyre-fitting", icon: Car },
+                    { name: "Emergency Tyre Repair", path: "/emergency-tyre-repair", icon: AlertTriangle },
+                    { name: "Tyre Replacement", path: "/roadside-tyre-replacement", icon: RefreshCw },
+                    { name: "Puncture Repair", path: "/puncture-repair", icon: PenTool },
+                    { name: "Locking Wheel Nut Removal", path: "/locking-wheel-nut-removal", icon: Lock },
+                    { name: "24/7 Mobile Service", path: "/247-mobile-tyre-service", icon: Clock },
+                  ].map(({ name, path, icon: Icon }) => (
+                    <Link key={path} href={path} className="flex items-center gap-3 px-4 py-2.5 text-[#0A1F44] hover:bg-[#FFF9E6] group/item transition-colors">
+                      <span className="flex items-center justify-center w-8 h-8 bg-[#F5F5F5] group-hover/item:bg-[#FFD700] rounded-lg transition-colors flex-shrink-0">
+                        <Icon className="w-4 h-4 text-[#0A1F44]" />
+                      </span>
+                      <span className="font-semibold text-sm">{name}</span>
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
 
+            {/* Areas Dropdown */}
             <div className="relative group">
-              <button className="flex items-center gap-1 text-white/90 hover:text-white font-medium py-2">
-                Areas We Cover <ChevronDown className="w-4 h-4" />
+              <button className="flex items-center gap-1.5 text-white/90 hover:text-[#FFD700] font-semibold py-2 transition-colors">
+                <MapPin className="w-4 h-4" />
+                Areas We Cover
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
-              <div className="absolute top-full left-0 w-56 bg-white rounded-xl shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all translate-y-2 group-hover:translate-y-0">
-                {[
-                  { name: "Sheffield", path: "/mobile-tyre-fitting-sheffield" },
-                  { name: "Chesterfield", path: "/mobile-tyre-fitting-chesterfield" },
-                  { name: "Rotherham", path: "/mobile-tyre-fitting-rotherham" },
-                  { name: "Nottingham", path: "/mobile-tyre-fitting-nottingham" },
-                ].map((item) => (
-                  <Link key={item.path} href={item.path} className="block px-4 py-2 text-[#0A1F44] hover:bg-gray-50 hover:text-primary font-medium">
-                    {item.name}
-                  </Link>
-                ))}
+              <div className="absolute top-[calc(100%+8px)] left-0 w-60 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 z-50">
+                <div className="h-1 bg-[#FFD700] w-full" />
+                <div className="py-2">
+                  {[
+                    { name: "Sheffield", path: "/mobile-tyre-fitting-sheffield" },
+                    { name: "Chesterfield", path: "/mobile-tyre-fitting-chesterfield" },
+                    { name: "Rotherham", path: "/mobile-tyre-fitting-rotherham" },
+                    { name: "Nottingham", path: "/mobile-tyre-fitting-nottingham" },
+                  ].map(({ name, path }) => (
+                    <Link key={path} href={path} className="flex items-center gap-3 px-4 py-2.5 text-[#0A1F44] hover:bg-[#FFF9E6] group/item transition-colors">
+                      <span className="flex items-center justify-center w-8 h-8 bg-[#F5F5F5] group-hover/item:bg-[#FFD700] rounded-lg transition-colors flex-shrink-0">
+                        <MapPin className="w-4 h-4 text-[#DC2626]" />
+                      </span>
+                      <span className="font-semibold text-sm">{name}</span>
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
 
-            <Link href="/about" className="text-white/90 hover:text-white font-medium">About</Link>
-            <Link href="/pricing" className="text-white/90 hover:text-white font-medium">Pricing</Link>
-            <Link href="/contact" className="text-white/90 hover:text-white font-medium">Contact</Link>
+            <Link href="/about" className="text-white/90 hover:text-[#FFD700] font-semibold transition-colors">About</Link>
+            <Link href="/pricing" className="text-white/90 hover:text-[#FFD700] font-semibold transition-colors">Pricing</Link>
+            <Link href="/contact" className="text-white/90 hover:text-[#FFD700] font-semibold transition-colors">Contact</Link>
           </nav>
 
           <div className="hidden lg:flex items-center gap-4">
@@ -97,41 +114,74 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-[#0A1F44] pt-24 pb-10 px-4 overflow-y-auto lg:hidden flex flex-col">
-          <nav className="flex flex-col gap-6 text-xl font-bold text-white mb-10">
-            <Link href="/">Home</Link>
-            <div>
-              <div className="text-white/60 text-sm font-bold tracking-wider mb-2 uppercase">Services</div>
-              <div className="flex flex-col gap-3 pl-4 border-l-2 border-white/10">
-                <Link href="/services">All Services</Link>
-                <Link href="/mobile-tyre-fitting">Mobile Tyre Fitting</Link>
-                <Link href="/emergency-tyre-repair">Emergency Repair</Link>
-                <Link href="/roadside-tyre-replacement">Tyre Replacement</Link>
-                <Link href="/puncture-repair">Puncture Repair</Link>
-                <Link href="/locking-wheel-nut-removal">Locking Nut Removal</Link>
-              </div>
+        <div className="fixed inset-0 z-40 bg-[#0A1F44] pt-20 pb-10 px-4 overflow-y-auto lg:hidden flex flex-col">
+          <nav className="flex flex-col gap-1 mb-8">
+            <Link href="/" className="flex items-center gap-3 px-3 py-3 text-white font-bold text-lg rounded-xl hover:bg-white/10 transition-colors">
+              <span className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-lg flex-shrink-0">
+                <Wrench className="w-5 h-5 text-[#FFD700]" />
+              </span>
+              Home
+            </Link>
+
+            <div className="mt-3 mb-1 px-3">
+              <span className="text-[#FFD700] text-xs font-black tracking-widest uppercase">Services</span>
             </div>
-            <div>
-              <div className="text-white/60 text-sm font-bold tracking-wider mb-2 uppercase">Locations</div>
-              <div className="flex flex-col gap-3 pl-4 border-l-2 border-white/10">
-                <Link href="/areas-we-cover">All Areas</Link>
-                <Link href="/mobile-tyre-fitting-sheffield">Sheffield</Link>
-                <Link href="/mobile-tyre-fitting-chesterfield">Chesterfield</Link>
-                <Link href="/mobile-tyre-fitting-rotherham">Rotherham</Link>
-                <Link href="/mobile-tyre-fitting-nottingham">Nottingham</Link>
-              </div>
+            {[
+              { name: "Mobile Tyre Fitting", path: "/mobile-tyre-fitting", icon: Car },
+              { name: "Emergency Tyre Repair", path: "/emergency-tyre-repair", icon: AlertTriangle },
+              { name: "Tyre Replacement", path: "/roadside-tyre-replacement", icon: RefreshCw },
+              { name: "Puncture Repair", path: "/puncture-repair", icon: PenTool },
+              { name: "Locking Wheel Nut Removal", path: "/locking-wheel-nut-removal", icon: Lock },
+              { name: "24/7 Mobile Service", path: "/247-mobile-tyre-service", icon: Clock },
+            ].map(({ name, path, icon: Icon }) => (
+              <Link key={path} href={path} className="flex items-center gap-3 px-3 py-2.5 text-white/90 font-semibold text-base rounded-xl hover:bg-white/10 transition-colors">
+                <span className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-lg flex-shrink-0">
+                  <Icon className="w-5 h-5 text-[#FFD700]" />
+                </span>
+                {name}
+              </Link>
+            ))}
+
+            <div className="mt-4 mb-1 px-3">
+              <span className="text-[#FFD700] text-xs font-black tracking-widest uppercase">Locations</span>
             </div>
-            <Link href="/about">About Us</Link>
-            <Link href="/pricing">Pricing</Link>
-            <Link href="/faqs">FAQs</Link>
-            <Link href="/contact">Contact</Link>
+            {[
+              { name: "Sheffield", path: "/mobile-tyre-fitting-sheffield" },
+              { name: "Chesterfield", path: "/mobile-tyre-fitting-chesterfield" },
+              { name: "Rotherham", path: "/mobile-tyre-fitting-rotherham" },
+              { name: "Nottingham", path: "/mobile-tyre-fitting-nottingham" },
+            ].map(({ name, path }) => (
+              <Link key={path} href={path} className="flex items-center gap-3 px-3 py-2.5 text-white/90 font-semibold text-base rounded-xl hover:bg-white/10 transition-colors">
+                <span className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-lg flex-shrink-0">
+                  <MapPin className="w-5 h-5 text-[#DC2626]" />
+                </span>
+                {name}
+              </Link>
+            ))}
+
+            <div className="mt-4 mb-1 px-3">
+              <span className="text-[#FFD700] text-xs font-black tracking-widest uppercase">More</span>
+            </div>
+            {[
+              { name: "About Us", path: "/about", icon: Settings },
+              { name: "Pricing", path: "/pricing", icon: RefreshCw },
+              { name: "FAQs", path: "/faqs", icon: AlertTriangle },
+              { name: "Contact", path: "/contact", icon: Phone },
+            ].map(({ name, path, icon: Icon }) => (
+              <Link key={path} href={path} className="flex items-center gap-3 px-3 py-2.5 text-white/90 font-semibold text-base rounded-xl hover:bg-white/10 transition-colors">
+                <span className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-lg flex-shrink-0">
+                  <Icon className="w-5 h-5 text-white/70" />
+                </span>
+                {name}
+              </Link>
+            ))}
           </nav>
           
-          <div className="mt-auto">
-            <a href={PHONE_HREF} className="flex items-center justify-center gap-2 w-full py-4 text-xl font-bold text-[#0A1F44] bg-[#FFD700] rounded-xl mb-4">
+          <div className="mt-auto pt-4 border-t border-white/10">
+            <a href={PHONE_HREF} className="flex items-center justify-center gap-2 w-full py-4 text-xl font-bold text-[#0A1F44] bg-[#FFD700] rounded-xl mb-3 shadow-lg">
               <Phone className="w-6 h-6" /> Call Now
             </a>
-            <Link href="/book-a-service" className="flex items-center justify-center gap-2 w-full py-4 text-xl font-bold text-white bg-white/10 rounded-xl">
+            <Link href="/book-a-service" className="flex items-center justify-center gap-2 w-full py-4 text-lg font-bold text-white bg-white/10 rounded-xl">
               Book Online
             </Link>
           </div>
