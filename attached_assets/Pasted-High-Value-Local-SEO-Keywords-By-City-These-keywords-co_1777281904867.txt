@@ -1,0 +1,168 @@
+High‑Value Local SEO Keywords (By City)
+These keywords combine service + emergency intent + local geo-targeting, which is essential for mobile tyre services.
+
+Sheffield
+emergency tyre repair Sheffield
+mobile tyre fitting Sheffield
+24/7 mobile tyre fitter Sheffield
+roadside tyre replacement Sheffield
+puncture repair Sheffield mobile
+mobile tyre change Sheffield
+Nottingham
+mobile tyre fitting Nottingham
+emergency tyre repair Nottingham
+24 hour tyre call out Nottingham
+mobile tyre change Nottingham
+roadside tyre repair Nottingham
+Chesterfield
+mobile tyre fitting Chesterfield
+emergency tyre repair Chesterfield
+tyre call out Chesterfield
+puncture repair Chesterfield
+24/7 mobile tyre service Chesterfield
+Rotherham
+mobile tyre fitting Rotherham
+emergency tyre repair Rotherham
+tyre call out Rotherham
+mobile puncture repair Rotherham
+24 hour mobile tyres Rotherham
+High‑Intent Universal Keywords
+emergency tyre repair near me
+mobile tyre fitting near me
+24/7 mobile tyre service
+tyre call out service
+roadside tyre replacement
+emergency tyre fitter
+mobile tyre change service
+Use these throughout landing pages, meta tags, H1/H2 headings, Google Business Profile, and local citations.
+
+What the Website Needs to Rank Higher
+1. Strong Local Landing Pages (Critical)
+Right now the site groups all service areas together.
+You need dedicated SEO landing pages for each:
+
+/mobile-tyre-fitting-sheffield
+/mobile-tyre-fitting-nottingham
+/mobile-tyre-fitting-chesterfield
+/mobile-tyre-fitting-rotherham
+Each page should include:
+
+Unique H1 with keyword (example: Mobile Tyre Fitting Sheffield – 24/7 Tyre Rescue)
+A short 50–70 word intro using primary keywords
+A “Why choose us locally” section
+“30–60 min emergency response in Sheffield” type text
+Local landmarks (Ring Road, Meadowhall, etc.) for local relevance
+Customer reviews with locations (e.g., “John S., Sheffield S5”)
+2. Improve On‑Page SEO Structure
+The extracted content shows basic service descriptions but lacks optimization.
+
+Implement:
+
+One H1 per page (currently unclear)
+H2s for services:
+Mobile Tyre Fitting
+Emergency Tyre Repair
+Puncture Repair
+Locking Wheel Nut Removal
+Include FAQ Section with rich‑snippet keywords:
+“How fast can you arrive?”
+“Do you offer 24/7 tyre call outs?”
+“Which tyres do you carry?”
+This helps you win “People Also Ask” blocks.
+
+3. Add Schema Markup
+Add the following types:
+
+LocalBusiness Schema
+Service Schema (for tyre fitting, puncture repair)
+FAQ Schema
+Review Schema
+This improves your rich‑result presence.
+
+4. Improve Page Speed and Technical SEO
+Mobile emergency services must load fast, especially for “near me” searches.
+
+Ensure:
+
+Image compression
+WebP format
+CSS/JS minification
+Fast server response
+No unused plugins
+Also verify:
+
+Correct XML sitemap
+Robots.txt optimized
+All pages indexable
+5. Strengthen Google Business Profiles (GBP)
+Create one optimized GBP for each service area you realistically operate from.
+
+IMPORTANT: Google heavily prioritizes proximity for emergency services.
+
+Your GBP must have:
+
+Category: Mobile Tyre Fitting Service
+Services: Emergency tyre repair, Mobile tyre fitting
+24/7 hours
+Service-area business settings
+High-quality images of vans, tyre stock, fitting process
+Posts every 3–4 days
+Reviews mentioning city + service (“Fast tyre replacement in Sheffield!”)
+6. Build Local Backlinks
+Acquire backlinks from:
+
+Sheffield Chamber of Commerce
+Nottinghamshire business directories
+Rotherham community sites
+Local news articles (“24/7 mobile tyre service now covering…”)
+Also add listings to all major UK directories:
+
+Yell
+Yelp
+Checkatrade
+TrustATrader
+Thompson Local
+FreeIndex
+Google Maps (service areas)
+Bing Places
+Be consistent with NAP (Name, Address, Phone).
+
+7. Add Customer Trust Elements
+Users searching for emergency tyre services are stressed. Trust indicators increase conversion.
+
+Add:
+
+“30–60 minute response time” badge
+“Over X tyres in stock”
+24/7 icon
+Payment methods
+Fully insured, qualified fitters
+Testimonials on the homepage
+8. Improve Content Depth for Better Ranking
+Your home page should target:
+“24/7 Mobile Tyre Fitting & Emergency Tyre Repair”
+
+Add more detail:
+
+What tyres you carry (budget, mid-range, premium)
+Vehicles you service (cars, vans, SUVs)
+Areas with emergency priority
+Call-out fee explanation
+Step‑by‑step of how your service works
+This increases relevance and keywords.
+
+Summary of Most Important Actions (Prioritized)
+Create 4 dedicated city landing pages optimized for local keywords.
+Fix on-page structure: H1/H2, add FAQs, keyword integration.
+Add LocalBusiness + Service + FAQ schema.
+Optimize Google Business Profiles for each service area.
+Build strong local backlinks and directory citations.
+Improve mobile load speed and core web vitals.
+Expand homepage content and add trust badges.
+If you want, I can write:
+
+Full optimized homepage content
+Complete city landing page templates
+Metadata (titles/descriptions) for every page
+Keyword placement map
+Technical SEO audit checklist
